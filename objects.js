@@ -9,3 +9,10 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 
 updatePlaylist(playlist, ShawnMendes, 'In My Blood' );
+
+function removeFromPlaylist(playlist, artistName){
+  delete playlist.artistName;
+  return playlist
+}
+
+removeFromPlaylist(ShawnMendes, 'In My Blood')
