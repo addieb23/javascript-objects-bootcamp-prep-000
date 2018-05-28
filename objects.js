@@ -3,6 +3,6 @@ var playlist = {
 }
 
 function objects updatePlaylist(playlist, artistName, songTitle){
-  playlist.NF = 'Let You Down';
+  playlist[artistName] = songTitle;
   return playlist
 }
