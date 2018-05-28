@@ -2,4 +2,7 @@ var playlist = {
   EdSheeran:  'Castle on the hill'
 }
 
-playlist.NF = 'Let You Down';
+function objects updatePlaylist(playlist, artistName, songTitle){
+  playlist.NF = 'Let You Down';
+  return playlist
+}
