@@ -1,3 +1,3 @@
 var playlist = {
-  Ed Sheeran:  'Castle on the hill'
+  EdSheeran:  'Castle on the hill'
 }
